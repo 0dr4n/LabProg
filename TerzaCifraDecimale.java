@@ -5,6 +5,12 @@ public class TerzaCifraDecimale {
     int a;
     System.out.println("Inserisci un valore per a: ");
     a = input.nextInt();
+    a = 2*a;
     System.out.println("Il doppi dii a è: "+a);
+    if (a>=0) {
+      System.out.println("Il valore è positivo");
+    } else {
+      System.out.println("Il valore è negativo");
+    }
   ]
 }
